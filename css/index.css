@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('/img/bg5.jpg') no-repeat center center fixed;
+    background-size: cover; /*to cover the entire screen*/
+}
+
+.container {
+    position: absolute;
+    padding: 40px;
+    border-radius: 20px;
+    left: 34%;
+    top: 25%;
+    border: 2px solid white;
+    /* width: 50%; */
+}
+
+.container h1 {
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+    padding: 2px;
+    margin: 3px 3px;
+    text-align: left;
+    border-bottom: 2px solid yellow;
+}
+
+.box {
+    border-bottom: 2px solid yellow;
+    margin: 18px 6px;
+}
+
+.box input {
+    max-width: 100%;
+    outline: none;
+    background: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 5px 12px;
+    color: white;
+    border: none;
+}
+
+
+.btn {
+    margin: 6px;
+    padding: 10px 22px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    border: 2px solid white;
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+}
+
+i {
+    color: white;
+    width: 25px;
+    text-align: center;
+    font-size: 85px;
+    /* padding: 0 12px; */
+}
+
+@media only screen and (max-width:700px) {
+    .container {
+        width: 68%;
+        margin: auto;
+        left: 10%;
+        top: 25%;
+        border: 2px solid white;   
+    }
+    .container h1{
+        font-size: 30px;
+   }
+   .btn {
+    margin: 6px;
+    padding: 5px 12px;
+    font-size: 10px;
+}
+}
+
+@media only screen and (max-width:500px) {
+    *{
+        font-size: 10px;
+    }
+    .container{
+        padding: 20px;
+    }
+    .container h1{
+         font-size: 30px;
+    }
+    .box {
+        border-bottom: 2px solid yellow;
+        margin: 6px 2px;
+    }
+    
+    .box input {
+        max-width: 77%;
+        border-radius: 5px;
+        font-size: 15px;
+        margin: 10px 0px;
+        padding: 5px 12px;
+        color: white;
+        border: none;
+    }
+    i {
+        color: white;
+        width: 15px;
+        font-size: 85px;
+        /* padding: 0 12px; */
+    }   
+}
+
+@media only screen and (max-width:370px) {
+    .container{
+        padding: 10px;
+        display: block;
+        margin: auto;
+    }
+    .container h1{
+        font-size: 20px;
+   }
+   .box {
+       border-bottom: 2px solid yellow;
+       margin: 0px 0px;
+       padding:0;
+   }
+   
+   .box input {
+       font-size: 9px;
+       margin: 10px 3px;
+       padding: 5px 0px;
+   }
+}
+@media only screen and (max-width:250px) {
+    .box input{
+        font-size: 9px;
+        margin: 8px 0px;
+        padding: 5px 0px;
+
+    }
+}
