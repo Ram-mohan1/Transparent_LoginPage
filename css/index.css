@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(https://images.pexels.com/photos/745240/pexels-photo-745240.jpeg') no-repeat center center fixed;
+    background: url('https://images.pexels.com/photos/745240/pexels-photo-745240.jpeg') no-repeat center center fixed;
     background-size: cover; /*to cover the entire screen*/
 }
 
